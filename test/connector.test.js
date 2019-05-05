@@ -2,10 +2,9 @@ import { GraphQLConnector } from '@gramps/gramps-express';
 import Connector from '../src/connector';
 import { API_BASE_URI } from '../src/constants';
 
-const DATA_SOURCE_NAME = 'IMDBAPI';
 const connector = new Connector();
 
-describe(`${DATA_SOURCE_NAME}Connector`, () => {
+describe(`Dogs Connector`, () => {
   it('inherits the GraphQLConnector class', () => {
     expect(connector).toBeInstanceOf(GraphQLConnector);
   });
