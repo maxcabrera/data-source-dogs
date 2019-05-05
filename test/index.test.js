@@ -1,9 +1,9 @@
 import dataSource from '../src';
 
 // TODO: Update the data source name.
-describe(`Data Source: DataSourceBase`, () => {
+describe(`Data Source: DataSourceDogs`, () => {
   it('contains a namespace property', () => {
-    expect(dataSource.namespace).toBe('DataSourceBase');
+    expect(dataSource.namespace).toBe('DataSourceDogs');
   });
 
   it('contains a context property', () => {

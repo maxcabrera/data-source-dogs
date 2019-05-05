@@ -1,12 +1,12 @@
 {
-  "name": "@gramps/data-source-base",
-  "description": "GrAMPS GraphQL Data Source Base",
+  "name": "@gramps/data-source-dogs",
+  "description": "GrAMPS GraphQL Data Source For Dogs",
   "contributors": [
-    "Jason Lengstorf <jason@lengstorf.com>"
+    "Max Cabrera <cabrera.max@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gramps-graphql/data-source-base.git"
+    "url": "https://github.com/maxcabrera/data-source-dogs.git"
   },
   "main": "dist/index.js",
   "directories": {
@@ -32,6 +32,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "@gramps/gramps-express": "^0.1.6",
     "casual": "^1.5.19"
   },
   "peerDependencies": {
